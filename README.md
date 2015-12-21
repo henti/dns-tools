@@ -13,6 +13,10 @@
       * [DESCRIPTION](#description-2)
       * [CAVEATS](#caveats-1)
       * [LICENSE](#license-2)
+    * [axfr2pdns.pl](#axfr2pdnspl)
+      * [NAME](#name-3)
+      * [DESCRIPTION](#description-3)
+      * [LICENSE](#license-3)
 
 # dns-tools
 Tools to integrate with powerdns. 
@@ -53,6 +57,17 @@ A perl script to extract hostname and IP information from CSV file, which is use
 
 ### CAVEATS
 Script does not check for duplicate IP's so multiple A records will be created.
+
+### LICENSE
+GPL v2, June 1991
+
+## axfr2pdns.pl
+
+### NAME
+axfr2pdns.pl - Extract DNS information from zone transfer and populate into PowerDNS
+
+### DESCRIPTION
+Script will do a zone transfer from DNS server using Net::DNS and then populate PowerDNS MySQL backend using PowerDNS::Backend::MySQL
 
 ### LICENSE
 GPL v2, June 1991
